@@ -1,3 +1,68 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.mainScreen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.js-date h1 {
+  font-size: 3rem;
+  color: rgb(190, 255, 190);
+  font-weight: bold;
+}
+
+.js-clock h1 {
+  color: rgb(156, 240, 156);
+  font-weight: bold;
+}
+
+input {
+  border: 1px solid black;
+  border-radius: 10px;
+  opacity: 0.5;
+  width: 250px;
+  height: 50px;
+  background-color: none;
+}
+
+input::placeholder {
+  text-align: center;
+  font-weight: bold;
+  color: black;
+}
+
+input:focus {
+  text-align: center;
+}
+
+.greetings {
+  font-size: 32px;
+  color: rgb(190, 255, 190);
+}
+
+button {
+  width: 50px;
+  height: 25px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-right: 15px;
+  margin-bottom: 5px;
+}
+
+button:hover {
+  opacity: 0.6;
+}
+
+.js-toDoList {
+  list-style: none;
+}
+
 .showing {
   display: none;
 }
@@ -19,4 +84,16 @@
   height: 100%;
   z-index: -1;
   animation: fadeIn 0.5s linear;
+}
+
+.js-weather {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+span {
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(19, 172, 233);
 }
